@@ -63,7 +63,7 @@ const ModPack = ({modPack, reloadModPacks, factorioVersion, reloadMods, disabled
                                              icon={isLoading ? faSpinner : faUpload}
                             />
                             <ConfirmDialog
-                                title="Load ModPack"
+                                title="加载 ModPack"
                                 content={`Loading the ModPack ${modPack.name} will remove all installed Mods.`}
                                 isOpen={isLoadModPackDialogOpen}
                                 close={() => setIsLoadModPackDialogOpen(false)}

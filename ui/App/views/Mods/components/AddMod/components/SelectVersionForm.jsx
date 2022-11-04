@@ -16,7 +16,7 @@ const SelectVersionForm = ({releases, isOpen, close, install}) => {
     return (
         <Modal
             isOpen={isOpen}
-            title="Select Version"
+            title="选择版本"
             content={
                 <div className="h-64 overflow-y-auto">
                     <table className="w-full">

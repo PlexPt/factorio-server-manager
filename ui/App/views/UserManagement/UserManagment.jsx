@@ -29,7 +29,7 @@ const UserManagement = () => {
     return (
         <>
             <Panel
-                title="List of Users"
+                title="用户列表"
                 content={
                     <table className="w-full">
                         <thead>
@@ -57,12 +57,12 @@ const UserManagement = () => {
                 className="mb-4"
             />
             <Panel
-                title="Change Password"
+                title="更改密码"
                 content={<ChangePasswordForm/>}
                 className="mb-4"
             />
             <Panel
-                title="Create User"
+                title="创建用户"
                 content={<CreateUserForm updateUserList={updateList}/>}
                 className="mb-4"
             />

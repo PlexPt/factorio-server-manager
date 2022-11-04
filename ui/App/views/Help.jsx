@@ -4,7 +4,7 @@ import React from "react";
 const Help = () => {
     return (
         <Panel
-            title="Help"
+            title="帮助"
             content={
                 <>
                     <h1 className="text-xl text-dirty-white">Factorio Server Manager</h1>

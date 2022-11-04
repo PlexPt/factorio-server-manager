@@ -42,7 +42,7 @@ const Login = ({handleLogin}) => {
     return (
         <div className="h-screen overflow-hidden flex items-center justify-center bg-black">
             <Panel
-                title="Login"
+                title="登录"
                 content={
                     <form onSubmit={handleSubmit(onSubmit)}>
                         <div className="mb-4">

@@ -35,7 +35,7 @@ const Saves = ({serverStatus}) => {
         <>
             <div className="lg:flex mb-6">
                 <Panel
-                    title="Create Save"
+                    title="创建存档"
                     className="lg:w-1/2 lg:mr-3 mb-6 lg:mb-0"
                     content={
                         serverStatus.running
@@ -47,7 +47,7 @@ const Saves = ({serverStatus}) => {
                     }
                 />
                 <Panel
-                    title="Upload Save"
+                    title="上传存档"
                     className="lg:w-1/2 lg:ml-3"
                     content={<UploadSaveForm onSuccess={updateList}/>}
                 />
@@ -55,7 +55,7 @@ const Saves = ({serverStatus}) => {
 
             <Panel
                 className="mb-4"
-                title="Saves"
+                title="存档"
                 content={
                     <div className="overflow-x-auto w-full">
                         <table className="w-full">

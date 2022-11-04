@@ -117,13 +117,13 @@ const Mods = ({serverStatus}) => {
                 />
                 :
                 <TabControl>
-                    <Tab title="Install Mod">
+                    <Tab title="安装 Mod">
                         <AddMod refetchInstalledMods={fetchInstalledMods} fuse={fuse}/>
                     </Tab>
-                    <Tab title="Upload Mod">
+                    <Tab title="上传 Mod">
                         <UploadMod refetchInstalledMods={fetchInstalledMods}/>
                     </Tab>
-                    <Tab title="Load Mod from Save">
+                    <Tab title="从存档加载 Mod">
                         <LoadMods refreshMods={fetchInstalledMods}/>
                     </Tab>
                 </TabControl>
@@ -157,7 +157,7 @@ const Mods = ({serverStatus}) => {
             />
 
             <Panel
-                title="Mod packs"
+                title="Mod 包"
                 className="mb-6"
                 content={
                     modPacks.map(

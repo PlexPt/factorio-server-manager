@@ -45,7 +45,7 @@ const Controls = ({serverStatus}) => {
     return (
         <form onSubmit={handleSubmit(startServer)}>
         <Panel
-            title="Server Status"
+            title="服务器状态"
             content={
                 <div className="lg:flex">
                     { serverStatus.running

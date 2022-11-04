@@ -124,7 +124,7 @@ const ServerSettings = () => {
     return (
         <form className="mb-4" onSubmit={handleSubmit(saveServerSettings)}>
             <Panel
-                title="Server Settings"
+                title="服务器设置"
                 content={
                     <>
                         {settings && Object.keys(settings).map(key => {

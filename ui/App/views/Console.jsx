@@ -25,7 +25,7 @@ const Console = ({serverStatus}) => {
 
     return (
         <Panel
-            title="Console"
+            title="控制台"
             content={
                 serverStatus.running
                     ? <>

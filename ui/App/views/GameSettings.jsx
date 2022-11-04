@@ -18,7 +18,7 @@ const GameSettings = () => {
     return (
         <Panel
             className="mb-4"
-            title="Game Settings"
+            title="游戏设置"
             content={
                 <>
                     {settingsCategories && Object.keys(settingsCategories).map(key => {

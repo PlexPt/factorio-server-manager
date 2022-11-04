@@ -27,7 +27,7 @@ const CreateModPack = ({onSuccess}) => {
 
     return <>
         <Button size="sm" onClick={() => setIsOpen(true)}>Add ModPack with current installed Mods</Button>
-        <Modal title="Create Mod Pack" isOpen={isOpen} content={
+        <Modal title="创建 Mod 包" isOpen={isOpen} content={
             <form onSubmit={handleSubmit(createModPack)}>
                 <div className="mb-4">
                     <Label text="Name" htmlFor="name"/>
